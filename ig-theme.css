@@ -1,0 +1,30 @@
+:root {
+    --ig-font-family: "Lato";
+    --ig-primary-h: 290deg;
+    --ig-primary-s: 46%;
+    --ig-primary-l: 50%;
+    --ig-secondary-h: 290deg;
+    --ig-secondary-s: 46%;
+    --ig-secondary-l: 50%;
+    --ig-primary-500-contrast: white;
+    --ig-primary-600-contrast: white;
+    --ig-primary-700-contrast: white;
+    --ig-primary-A400-contrast: white;
+    --ig-secondary-500-contrast: white;
+}
+
+/* align icons in their containers */
+.material-icons, .imx-icon {
+  vertical-align: middle;
+}
+
+.ig-typography h1,
+.ig-typography h2,
+.ig-typography h3,
+.ig-typography h4,
+.ig-typography h5,
+.ig-typography h6,
+.ig-typography p,
+.ig-typography__body-1 {
+    margin: 0 !important;
+}
